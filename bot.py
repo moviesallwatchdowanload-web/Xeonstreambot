@@ -1,3 +1,5 @@
+import asyncio
+
 try:
     loop = asyncio.get_event_loop()
 except RuntimeError:
